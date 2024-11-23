@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+</head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    align-content: center;
+}
+th, td {
+    padding: 15px;
+}
+
+legend {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+</style>
+<body>
+    
+    <h1 style="text-align: center;">Student Enrollment Form</h1>
+    <form>
+        <fieldset>
+            <legend>Instructions</legend>
+        <ol>
+            <li>Fill in the form fields.</li>
+            <li>Check your interests.</li>
+            <li>Click "Enroll Now" to submit.</li>
+        </ol>
+            <label style="padding-right: 65.5%; font-weight: bold;" for="fname">Fullname:</label> <label style=" font-weight: bold;" for="age">Age:</label><br>
+            <input style="width: 70%;" type="text" id="fname" name="fname"> <input type="number" id="age" name="age"><br>
+            <label style="padding-right: 63.3%; font-weight: bold;" for="email">Email Address:</label> <label style=" font-weight: bold;" for="sex">Sex:</label><br>
+            <input style="width: 70%;" type="text" id="email" name="email"> <label style="padding-left: 0.4%;" for="male">Male:</label> <input type="radio" id="sex" name="male"><br>
+            <label style="padding-right: 65.5%; font-weight: bold;" for="course">Course:</label> <label style="padding-left: 1.5%;" for="female">Female:</label> <input type="radio" id="sex" name="female"><br>
+            <select style="width: 71%;" id="course" name="course">
+                <option value="BSIT">Bachelor of Science in Information Technology</option>
+                <option value="BSSW">Bachelor of Science in Social Work</option>
+                <option value="BSPA">Bachelor of Science in Public Administration</option>
+                <option value="BSCS">Bachelor of Science in Computer Science</option>
+                <option value="BSed">Bachelor of Science in Secondary Education</option>
+                <option value="BFA">Bachelor of Science in Fine Arts</option>
+              </select>
+        </fieldset>
+    </form>
+
+
+
+    <form>
+        <fieldset>
+            <legend>Select your interest</legend>
+            <input type="checkbox" id="Computer Science" name="Computer Science" value="Computer Science">
+            <label style="padding-right: 100px;" for="interest"> Computer Science</label>
+    
+            <input type="checkbox" id="Psychology" name="Psychology" value="Psychology">
+            <label style="padding-right: 100px;" for="interest"> Psychology</label>
+    
+            <input type="checkbox" id="Biology" name="Biology" value="Biology">
+            <label style="padding-right: 100px;" for="interest"> Biology</label>
+    
+            <input type="checkbox" id="History" name="History" value="History">
+            <label style="padding-right: 100px;" for="interest"> History</label>
+    
+            <input type="checkbox" id="English-Literature" name="English-Literature" value="English-Literature">
+            <label style="padding-right: 100px;" for="interest"> English Literature</label><br>
+    
+            <input type="checkbox" id="Business-Administration" name="Business-Administration" value="Business-Administration">
+            <label style="padding-right: 61px;" for="interest"> Business Administration</label>
+    
+            <input type="checkbox" id="Environmental-Science" name="Environmental-Science" value="Environmental-Science">
+            <label style="padding-right: 25px;" for="interest"> Environmental Science</label>
+    
+            <input type="checkbox" id="Art-and-Design" name="Art-and-Design" value="Art-and-Design">
+            <label style="padding-right: 55px;" for="interest"> Art and Design</label>
+    
+            <input type="checkbox" id="Music" name="Music" value="Music">
+            <label style="padding-right: 108px;" for="interest"> Music</label>
+    
+            <input type="checkbox" id="Political-Science" name="Political-Science" value="Political-Science">
+            <label style="padding-right: 45px;" for="interest"> Political Science</label><br>
+            <input style="font-size: large; width: 10%;"  type="submit">
+        </fieldset>
+    </form>
+
+
+
+    <h2 style="text-align: center;">Student Datas</h2>
+    <table style="width: 100%;">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Sex</th>
+          <th>Course</th>
+          <th>Interest</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Avery Thompson</td>
+          <td>averythompson@gmail.com</td>
+          <td>19</td>
+          <td>Female</td>
+          <td>BSIT</td>
+          <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Noah Martinez</td>
+            <td>noahmartinez@gmail.com</td>
+            <td>18</td>
+            <td>Male</td>
+            <td>BSSW</td>
+            <td>Psychology</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Olivia Davis</td>
+            <td>oliviadavis@gmail.com</td>
+            <td>20</td>
+            <td>Female</td>
+            <td>BSIT</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Ethan Lee</td>
+            <td>ethanlee@gmail.com</td>
+            <td>18</td>
+            <td>Male</td>
+            <td>BSFA</td>
+            <td>Music</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Sophia Rodriguez</td>
+            <td>sophiarodriguez@gmail.com</td>
+            <td>20</td>
+            <td>Female</td>
+            <td>BSIT</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Liam Wilson</td>
+            <td>liamwilson@gmail.com</td>
+            <td>19</td>
+            <td>Male</td>
+            <td>BSed</td>
+            <td>History</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Emma Brown</td>
+            <td>emmabrown@gmail.com</td>
+            <td>19</td>
+            <td>Female</td>
+            <td>BSSW</td>
+            <td>Psychology</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Jacob Johnson</td>
+            <td>jacobjohnson@gmail.com</td>
+            <td>18</td>
+            <td>Male</td>
+            <td>BSed</td>
+            <td>History</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Mia Miller</td>
+            <td>miamiller@gmail.com</td>
+            <td>19</td>
+            <td>Female</td>
+            <td>BSFA</td>
+            <td>Music</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>William Taylor</td>
+            <td>williamtaylor@gmail.com</td>
+            <td>20</td>
+            <td>Male</td>
+            <td>BSIT</td>
+            <td>Computer Science</td>
+        </tr>
+      </table>
+</body>
+</html>
